@@ -13,6 +13,7 @@ function RecipeList() {
       .then(setRecipes);
   }, []);
 
+  console.log(recipes)
   return (
     <Wrapper>
       {recipes.length > 0 ? (
